@@ -17,7 +17,7 @@ USE master;
 Go
 
 --Drop and recreate the 'DataWarehouse' database
-IF EXIST (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
+IF EXISTs (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
 BEGIN
     ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE)
     DROP DATABASE DataWarehouse;

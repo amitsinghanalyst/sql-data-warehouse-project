@@ -14,7 +14,7 @@ Parameters:
   This stored procedure does not accept any parameters or return any values.
 
   Usage Example:
-    EXCEC bronze.load_bronze;
+    EXEC bronze.load_bronze;
 ================================================================================================
 */
 

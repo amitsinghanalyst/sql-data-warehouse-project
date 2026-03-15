@@ -40,7 +40,7 @@ CREATE TABLE bronze.crm_prd_info (
 	prd_cost INT,
 	prd_line NVARCHAR(50),
 	prd_start_date DATETIME,
-	prd_enf_date DATETIME
+	prd_end_date DATETIME
 );
 
 GO
